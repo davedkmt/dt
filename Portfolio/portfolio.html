@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<title>Dave Tadesse</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="main.css" type="text/css">
+<script language="javascript" type="text/javascript" src="main.js"></script>
+
+<body>
+
+  <div class="w3-top">
+    <div class="w3-bar" id="myNavbar">
+      <a class="w3-bar-item w3-button w3-hover-black w3-hide-medium w3-hide-large w3-right" href="javascript:void(0);" onclick="toggleFunction()" title="Toggle Navigation Menu">
+        <i class="fa fa-bars"></i>
+      </a>
+      <a>
+      <a href="home.html" class="w3-bar-item w3-button"><i class="fa fa-home"></i>HOME</a>
+      <a href="about.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-user"></i> ABOUT</a>
+      <a href="contact.html" class="w3-bar-item w3-button w3-hide-small"><i class="fa fa-envelope"></i> CONTACT</a>
+      </a>
+    </div>
+
+    <!-- Navbar on small screens -->
+    <div id="navDemo" class="w3-bar-block w3-white w3-hide w3-hide-large w3-hide-medium">
+      <a href="home.html" class="w3-bar-item w3-button" onclick="toggleFunction()">HOME</a>
+      <a href="about.html" class="w3-bar-item w3-button" onclick="toggleFunction()">ABOUT</a>
+      <a href="contact.html" class="w3-bar-item w3-button" onclick="toggleFunction()">CONTACT</a>
+    </div>
+  </div>
+
+  <div class="w3-content w3-container w3-padding-64" id="portfolio">
+    <h3 class="w3-center"><b>MY WORK</b></h3><br>
+
+    <!-- Responsive Grid. Four columns on tablets, laptops and desktops. Will stack on mobile devices/small screens (100% width) -->
+    <div class="w3-row-padding w3-center">
+      <div class="w3-col m4">
+        <h4><b>trainTime</b></h4>
+        <p><b>HTML, CSS, Bootstrap, Firebase and jQuery.</b></p><br>
+        <a href="https://davedkmt.github.io/Train-Scheduler/" target="_blank"><img src="trainTime.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity img-thumbnail" alt="trainTime App"></a>
+      </div>
+
+      <div class="w3-col m4">
+        <h4><b>Heroes</b></h4>
+        <p> <b>HTML, CSS, Bootstrap and JavaScript.</b></p><br>
+        <a href="https://davedkmt.github.io/Heroes/" target="_blank"><img src="heroes.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity img-thumbnail" alt="Heroes App"></a>
+      </div>
+
+      <div class="w3-col m4">
+        <h4><b>Trivia</b></h4>
+        <p><b>HTML, CSS, Bootstrap, JavaScript and jQuery.</b></p><br>
+        <a href="https://davedkmt.github.io/TriviaGame/" target="_blank"><img src="trivia.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity img-thumbnail" alt="Trivia App"></a>
+      </div>
+
+    </div>
+
+    <div class="w3-row-padding w3-center w3-section">
+      <div class="w3-col m4">
+        <h4><b>Friend Finder</b></h4>
+        <p><b>HTML, CSS, Bootstrap, and JavaScript</b></p>
+        <a href="https://blooming-oasis-68280.herokuapp.com/" target="_blank"><img src="friend.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity img-thumbnail" alt="Friend Finder App"></a>
+      </div>
+
+      <div class="w3-col m4">
+        <h4><b>Psychic Game</b></h4>
+        <p><b>HTML, CSS, Bootstrap, JavaScript, jQuery.</b></p>
+        <a href="https://davedkmt.github.io/Psychic-game/" target="_blank"><img src="psychic.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity img-thumbnail" alt="Psychic App"></a>
+      </div>
+
+      <div class="w3-col m4">
+        <h4><b>Giftastic</b></h4>
+        <p><b>HTML, CSS, Bootstrap,and API.</b></p>
+        <a href="https://davedkmt.github.io/Giftastic/" target="_blank"><img src="giftastic.png" style="width:100%" onclick="onClick(this)" class="w3-hover-opacity img-thumbnail" alt="Giftastic App"></a>
+      </div>
+
+    </div>
+  </div>
+
+
+</body>
+
+</html>
